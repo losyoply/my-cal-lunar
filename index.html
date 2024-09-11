@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>農曆日期顯示</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>今天的農曆日期</h1>
+        <p id="lunar-date">農曆日期載入中...</p>
+        <button id="update-button">更新時間</button>
+
+         
+         <button id="calc-button">簡易版本</button>
+         <button id="norm-calc-button">正常版本</button>
+
+         <button id="explain-button">解釋</button>
+         <!-- 顯示運算結果的區域 -->
+         <div id="calc-results"></div>
+
+           <!-- 顯示解釋內容的區域 -->
+        <div id="explanation-results"></div>
+    </div>
+    <!-- 引入 lunar-javascript 庫 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.12/lunar.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
